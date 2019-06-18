@@ -1,46 +1,46 @@
 # 70-486 Resources <!-- omit in toc -->
 Exam 70-486 Objectives and Resources
 
-- [1. Design the application architecture](#1-design-the-application-architecture)
-  - [Plan the application layers](#plan-the-application-layers)
-  - [Design a distributed application](#design-a-distributed-application)
-  - [Design and implement the Azure Web Apps life cycle](#design-and-implement-the-azure-web-apps-life-cycle)
-  - [Configure state management](#configure-state-management)
-  - [Design a caching strategy](#design-a-caching-strategy)
-  - [Design and implement a Web Socket strategy](#design-and-implement-a-web-socket-strategy)
-  - [Design a configuration management solution](#design-a-configuration-management-solution)
-  - [Interact with the host environment](#interact-with-the-host-environment)
-  - [Compose an application by using the framework pipeline](#compose-an-application-by-using-the-framework-pipeline)
-- [2. Design the build and deployment architecture](#2-design-the-build-and-deployment-architecture)
-  - [Design a browser artifact build strategy](#design-a-browser-artifact-build-strategy)
-  - [Design a server build strategy](#design-a-server-build-strategy)
-  - [Design a publishing strategy](#design-a-publishing-strategy)
-  - [Implement an Azure deployment strategy](#implement-an-azure-deployment-strategy)
-  - [Implement a on-premises deployment strategy](#implement-a-on-premises-deployment-strategy)
-- [3. Design the User Experience](#3-design-the-user-experience)
-  - [Create elements of the user interface for a web application](#create-elements-of-the-user-interface-for-a-web-application)
-  - [Design and implement UI behavior](#design-and-implement-ui-behavior)
-  - [Design the UI layout of an application](#design-the-ui-layout-of-an-application)
-  - [Plan a responsive UI layout](#plan-a-responsive-ui-layout)
-  - [Plan mobile UI strategy](#plan-mobile-ui-strategy)
-- [4. Develop the User Experience](#4-develop-the-user-experience)
-  - [Plan for search engine optimization and accessibility](#plan-for-search-engine-optimization-and-accessibility)
-  - [Plan and implement globalization and localization](#plan-and-implement-globalization-and-localization)
-  - [Design and implement MVC controllers and actions](#design-and-implement-mvc-controllers-and-actions)
-  - [Design and implement routes](#design-and-implement-routes)
-  - [Control application behavior by using MVC extensibility points](#control-application-behavior-by-using-mvc-extensibility-points)
-  - [Design and implement serialization and model binding](#design-and-implement-serialization-and-model-binding)
-- [5. Troubleshoot and Debug Web Applications](#5-troubleshoot-and-debug-web-applications)
-  - [Prevent and troubleshoot runtime issues](#prevent-and-troubleshoot-runtime-issues)
-  - [Design an exception handling strategy](#design-an-exception-handling-strategy)
-  - [Test a web application](#test-a-web-application)
-  - [Debug an Azure application](#debug-an-azure-application)
-- [6. Design and Implement Security](#6-design-and-implement-security)
-  - [Configure authentication](#configure-authentication)
-  - [Configure and apply authorization](#configure-and-apply-authorization)
-  - [Design and implement claims-based authentication](#design-and-implement-claims-based-authentication)
-  - [Manage data integrity](#manage-data-integrity)
-  - [Implement a secure site](#implement-a-secure-site)
+- [1. Design the application architecture](#1-Design-the-application-architecture)
+  - [Plan the application layers](#Plan-the-application-layers)
+  - [Design a distributed application](#Design-a-distributed-application)
+  - [Design and implement the Azure Web Apps life cycle](#Design-and-implement-the-Azure-Web-Apps-life-cycle)
+  - [Configure state management](#Configure-state-management)
+  - [Design a caching strategy](#Design-a-caching-strategy)
+  - [Design and implement a Web Socket strategy](#Design-and-implement-a-Web-Socket-strategy)
+  - [Design a configuration management solution](#Design-a-configuration-management-solution)
+  - [Interact with the host environment](#Interact-with-the-host-environment)
+  - [Compose an application by using the framework pipeline](#Compose-an-application-by-using-the-framework-pipeline)
+- [2. Design the build and deployment architecture](#2-Design-the-build-and-deployment-architecture)
+  - [Design a browser artifact build strategy](#Design-a-browser-artifact-build-strategy)
+  - [Design a server build strategy](#Design-a-server-build-strategy)
+  - [Design a publishing strategy](#Design-a-publishing-strategy)
+  - [Implement an Azure deployment strategy](#Implement-an-Azure-deployment-strategy)
+  - [Implement a on-premises deployment strategy](#Implement-a-on-premises-deployment-strategy)
+- [3. Design the User Experience](#3-Design-the-User-Experience)
+  - [Create elements of the user interface for a web application](#Create-elements-of-the-user-interface-for-a-web-application)
+  - [Design and implement UI behavior](#Design-and-implement-UI-behavior)
+  - [Design the UI layout of an application](#Design-the-UI-layout-of-an-application)
+  - [Plan a responsive UI layout](#Plan-a-responsive-UI-layout)
+  - [Plan mobile UI strategy](#Plan-mobile-UI-strategy)
+- [4. Develop the User Experience](#4-Develop-the-User-Experience)
+  - [Plan for search engine optimization and accessibility](#Plan-for-search-engine-optimization-and-accessibility)
+  - [Plan and implement globalization and localization](#Plan-and-implement-globalization-and-localization)
+  - [Design and implement MVC controllers and actions](#Design-and-implement-MVC-controllers-and-actions)
+  - [Design and implement routes](#Design-and-implement-routes)
+  - [Control application behavior by using MVC extensibility points](#Control-application-behavior-by-using-MVC-extensibility-points)
+  - [Design and implement serialization and model binding](#Design-and-implement-serialization-and-model-binding)
+- [5. Troubleshoot and Debug Web Applications](#5-Troubleshoot-and-Debug-Web-Applications)
+  - [Prevent and troubleshoot runtime issues](#Prevent-and-troubleshoot-runtime-issues)
+  - [Design an exception handling strategy](#Design-an-exception-handling-strategy)
+  - [Test a web application](#Test-a-web-application)
+  - [Debug an Azure application](#Debug-an-Azure-application)
+- [6. Design and Implement Security](#6-Design-and-Implement-Security)
+  - [Configure authentication](#Configure-authentication)
+  - [Configure and apply authorization](#Configure-and-apply-authorization)
+  - [Design and implement claims-based authentication](#Design-and-implement-claims-based-authentication)
+  - [Manage data integrity](#Manage-data-integrity)
+  - [Implement a secure site](#Implement-a-secure-site)
 
 # 1. Design the application architecture
 
@@ -55,6 +55,9 @@ Exam 70-486 Objectives and Resources
 - design for scalability
 - choose between ASP.NET Core and ASP.NET
 - choose when to use .NET standard libraries
+
+**References:**
+- [Choose between ASP.NET 4.x and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/choose-aspnet-framework?view=aspnetcore-2.2)
 
 ## Design a distributed application
 
@@ -106,7 +109,7 @@ Exam 70-486 Objectives and Resources
 
 **References:**
 - [Response caching in ASP.NET Core](https://docs.microsoft.com/nb-no/aspnet/core/performance/caching/response?view=aspnetcore-2.2)
-- 
+- [Compare Azure CDN product features](https://docs.microsoft.com/en-us/azure/cdn/cdn-features)
 
 ## Design and implement a Web Socket strategy
 
@@ -151,6 +154,8 @@ Exam 70-486 Objectives and Resources
 
 **References:**
 - [Open Web Interface for .NET (OWIN) with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-2.2)
+- [Native interoperability](https://docs.microsoft.com/nb-no/dotnet/standard/native-interop/index)
+- [File Providers in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-2.2)
 
 ## Compose an application by using the framework pipeline
 
@@ -213,6 +218,9 @@ Exam 70-486 Objectives and Resources
 - implement deployment environments, including dev, test, and prod in Azure
 - use deployment slots for staging sites
 - deploy to Azure Stack
+
+**References:**
+- [Set up staging environments in Azure App Service](https://docs.microsoft.com/nb-no/azure/app-service/deploy-staging-slots)
 
 ## Implement a on-premises deployment strategy
 
@@ -424,7 +432,7 @@ Exam 70-486 Objectives and Resources
 
 **References:**
 - [Use Azure DevTest Labs for VM and PaaS test environments](https://docs.microsoft.com/en-us/azure/lab-services/devtest-lab-test-env)
-- 
+- [Unit testing C# in .NET Core using dotnet test and xUnit](https://docs.microsoft.com/nb-no/dotnet/core/testing/unit-testing-with-dotnet-test?toc=%2Faspnet%2Fcore%2Ftoc.json&bc=%2Faspnet%2Fcore%2Fbreadcrumb%2Ftoc.json&view=aspnetcore-2.2)
 
 ## Debug an Azure application
 
